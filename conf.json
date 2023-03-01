@@ -1,0 +1,15 @@
+{
+	"requetes": [{
+			"requete": "select * from table_name@destination=elastic@index=index-name",
+			"containsGeolocation": "true"
+		},
+		{
+			"requete": "INSERT||table-name",
+			"data": [{"nom": "diattara","prenom": "ibra"}, {"nom": "diouf","prenom": "ngor"}]
+		},
+		{
+			"requete": "select * from table_name@destination=kafka@topic-name=topic-name",
+			"containsGeolocation": "false"
+		}
+	]
+}
